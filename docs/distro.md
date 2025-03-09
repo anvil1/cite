@@ -8,36 +8,34 @@ The distribution index is written in JSON. The general format of the index is as
 
 ```json
 {
-    "version": "1.0.0",
-    "discord": {
-        "clientId": "12334567890123456789",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
-    },
-    "rss": "https://westeroscraft.com/articles/index.rss",
-    "servers": [
+  "servers": [
+    {
+      "id": "MonServeur",
+      "name": "Mon Serveur Minecraft",
+      "description": "Un serveur incroyable avec des mods !",
+      "icon": "https://monserveur.com/icon.png",
+      "version": "1.0.0",
+      "address": "monserveur.com:25565",
+      "minecraftVersion": "1.20.1",
+      "modules": [
         {
-            "id": "Example_Server",
-            "name": "WesterosCraft Example Client",
-            "description": "Example WesterosCraft server. Connect for fun!",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
-            "version": "0.0.1",
-            "address": "mc.westeroscraft.com:1337",
-            "minecraftVersion": "1.11.2",
-            "discord": {
-                "shortId": "Example",
-                "largeImageText": "WesterosCraft Example Server",
-                "largeImageKey": "server-example"
-            },
-            "mainServer": true,
-            "autoconnect": true,
-            "modules": [
-                "Module Objects Here"
-            ]
+          "id": "mod.example:mycoolmod:1.0.0@jar",
+          "name": "My Cool Mod",
+          "type": "ForgeMod",
+          "required": false,
+          "artifact": {
+            "size": 1234567,
+            "MD5": "abcdef1234567890abcdef1234567890",
+            "url": "https://monlien.com/mods/mycoolmod-1.0.0.jar"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
+
 ```
+
 
 ## Distro Index Object
 
@@ -285,7 +283,7 @@ A module is a generic representation of a file required to run the minecraft cli
                 "size": 23423,
                 "MD5": "169a5e6cf30c2cc8649755cdc5d7bad7",
                 "path": "examplefile.txt",
-                "url": "http://files.site.com/examplefile.txt"
+                "url": "https://www.dropbox.com/scl/fi/cl6436326hb32uj86s2bg/worldedit-mod-7.3.10.jar?rlkey=42y6iyfoivhd8sxm9flk72w0m&st=3odmaxv4&dl=0"
             }
         }
     ]
