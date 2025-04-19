@@ -274,7 +274,7 @@ releaseNotesFailed = "Échec du chargement des notes de version."
 newReleaseTitle = "Nouvelle Version Disponible"
 newPreReleaseTitle = "Nouvelle Pré-version Disponible"
 downloadingButton = "Téléchargement..."
-downloadButton = 'Télécharger depuis GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Fermez le lanceur et exécutez le programme d\'installation pour mettre à jour.</span>'
+downloadButton = "Télécharger depuis GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Fermez le lanceur et exécutez le programme d\'installation pour mettre à jour.</span>"
 latestVersionTitle = "Vous Utilisez la Dernière Version"
 checkForUpdatesButton = "Vérifier les Mises à Jour"
 checkingForUpdatesButton = "Vérification des mises à jour..."
