@@ -51,8 +51,8 @@ Les versions sont disponibles dans l’onglet Releases de ce dépôt.
 | Linux x64      | `Minefest-Launcher-setup-VERSION.AppImage` |
 
 ---
-**👨‍🔧 Développeur principal**
+** 👨‍🔧 Développeur principal**
 Anvil
 
 📢 Rejoignez notre communauté
-👉 (Serveur Discord officiel)[https://discord.com/invite/TjgJmMzsKu]
+👉([Serveur Discord officiel](https://discord.com/invite/TjgJmMzsKu))
